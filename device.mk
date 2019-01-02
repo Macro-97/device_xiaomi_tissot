@@ -92,6 +92,10 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc/7824900.sdhci/by-name/system
 $(call inherit-product, build/target/product/verity.mk)
 
-# Camera
+# Pixel 3 GoogleCamera
 PRODUCT_PACKAGES += \
-    Gcam
+    GoogleCameraModPixel3
+
+# Pixel 2 GoogleCamera
+PRODUCT_PACKAGES += \
+    GoogleCameraModPixel2

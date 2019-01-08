@@ -18,6 +18,9 @@
 
 DEVICE_PATH := device/xiaomi/tissot
 
+# Disable qmi EAP-SIM security
+DISABLE_EAP_PROXY := true
+
 # Filesystem
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_USES_RECOVERY_AS_BOOT := true

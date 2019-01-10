@@ -5,5 +5,6 @@
 # Camera
 persist.camera.HAL3.enabled=1
 persist.camera.eis.enable=1
+vendor.camera.hal1.packagelist=com.whatsapp,com.instagram.android,com.snapchat.android
 vendor.camera.aux.packagelist=com.Wide.GCam,com.Tele.GCam,com.dual.GCam,org.codeaurora.snapcam
 vendor.camera.aux.packagelist2=com.android.systemui
